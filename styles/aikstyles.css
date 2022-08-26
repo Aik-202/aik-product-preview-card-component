@@ -143,9 +143,10 @@ main {
     }
 
     .cont1 {
-        max-width: 40%;
-        margin-right: 0;
+        max-width: 38%;
+        padding-top: 50px;
         padding-left: 50px;
+        padding-right: 50px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
@@ -156,12 +157,16 @@ main {
     }
     
     .cont1>h2 {
-        font-size: 32px;
+        font-size: 40px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     
     .cont1>p {
         line-height: 1.5rem;
+    }
+
+    .contd1 {
+        font-size: 40px;
     }
 }
