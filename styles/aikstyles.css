@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
 /* for desktop mode */
 * {
     transition: 1s;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
     justify-content: center;
@@ -13,14 +14,64 @@ main {
     max-width: 100%;
     width: 100%;
     margin: 0;
+    padding: 15px;
+    background-color: hsl(30, 38%, 92%);
 }
+
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border-radius: 5px;
 }
-.container>figure>img{
-    max-width: 100%;
+
+#image_product {
     width: 100%;
+    height: 248px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/image-product-mobile.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.cont1 {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+.cont1>h2 {
+    color: hsl(212, 21%, 14%);
+}
+
+.contd1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.contd1>sup{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.contd2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(158, 36%, 37%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
