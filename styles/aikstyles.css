@@ -111,10 +111,14 @@ main {
     }
 
     #image_product {
-        width: 60%;
+        width: 40%;
         height: 500px;
         border-top-left-radius: 5px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 5px;
+    }
+
+    .cont1 {
+        max-width: 40%;
     }
 }
