@@ -13,6 +13,7 @@ main {
     align-items: center;
     max-width: 100%;
     width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 15px;
     background-color: hsl(30, 38%, 92%);
@@ -98,4 +99,14 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width:1280px) {
+    .container{
+        flex-direction: row;
+    }
+    #image_product{
+        width: 80%;
+        height: 500px;
+    }
 }
