@@ -22,6 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    font-family: Montserrat;
 }
 
 #image_product {
@@ -41,17 +42,36 @@ main {
     background-color: hsl(0, 0%, 100%);
     margin: 0;
     color: hsl(228, 12%, 48%);
+    font-size: 15px;
+}
+
+.cont1>h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 12px;
 }
 
 .cont1>h2 {
+    font-family: Fraunces;
     color: hsl(212, 21%, 14%);
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cont1>p {
+    line-height: 1.5rem;
 }
 
 .contd1 {
+    font-family: Fraunces;
     color: hsl(158, 36%, 37%);
+    font-size: 32px;
 }
 
 .contd1>sup{
+    font-family: Montserrat;
+    font-size: 15px;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
@@ -65,6 +85,10 @@ main {
     border: 1px solid hsl(158, 36%, 37%);
     border-radius: 5px;
     padding: 15px;
+}
+
+.contd2>img{
+    margin-right: 12px;
 }
 
 .attribution {
