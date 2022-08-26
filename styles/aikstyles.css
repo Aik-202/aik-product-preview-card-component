@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+
+/* for desktop mode */
+* {
+    transition: 1s;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container>figure>img{
+    max-width: 100%;
+    width: 100%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
