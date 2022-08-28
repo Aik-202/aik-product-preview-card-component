@@ -12,19 +12,19 @@
 
 <body>
   <main>
-    <div role="group" class="container">
-      <div role="figure" id="image_product">
+    <div role="group" class="container" itemscope itemtype="https://schema.org/Product">
+      <div role="figure" id="image_product" itemprop="image">
       </div>
-      <div role="group" class="cont1">
+      <div role="group" class="cont1" itemprop="description">
         <h1>Perfume</h1>
-        <h2>Gabrielle Essence Eau De Parfum</h2>
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        <h2 itemprop="name">Gabrielle Essence Eau De Parfum</h2>
+        <p itemprop="disambiguatingDescription">A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
-        <p class="contd1">$149.99 <sup>$169.99</sup></p>
-        <div role="button" class="contd2">
+        <p class="contd1" itemprop="offers"><span itemprop="priceCurrency" content="USD" >$</span><span itemprop="price">149.99</span><sup>$169.99</sup></p>
+        <button class="contd2">
           <img src="./images/icon-cart.svg" alt="icon-cart">
           Add to Cart
-        </div>
+        </button>
       </div>
     </div>
   </main>

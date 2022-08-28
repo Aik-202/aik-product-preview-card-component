@@ -92,6 +92,7 @@ main {
 }
 
 .contd2 {
+    font-family: Montserrat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +105,10 @@ main {
 
 .contd2>img {
     margin-right: 12px;
+}
+
+.contd2:hover {
+    background-color: hsl(158, 28%, 27%);
 }
 
 .attribution {
@@ -193,11 +198,11 @@ main {
     }
 
     .cont1 {
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .cont1>h1 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .cont1>h2 {
@@ -213,7 +218,7 @@ main {
     }
 
     .contd1>sup {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -236,11 +241,15 @@ main {
         max-width: 35%;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        font-size: 16px;
+        font-size: 13px;
+    }
+
+    .cont1>h1 {
+        font-size: 13px;
     }
 
     .cont1>h2 {
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 15px;
         margin-bottom: 10px;
         line-height: 2.3rem;
@@ -251,13 +260,13 @@ main {
     }
 
     .contd1 {
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 20px;
         margin-bottom: 45px;
     }
 
     .contd1>sup {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
