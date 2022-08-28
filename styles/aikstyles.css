@@ -109,6 +109,7 @@ main {
 
 .contd2:hover {
     background-color: hsl(158, 28%, 27%);
+    border: 1px solid hsl(158, 28%, 27%);
 }
 
 .attribution {
