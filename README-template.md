@@ -46,6 +46,7 @@ Users should be able to:
 - Mobile-first workflow
 - HTML5 Microdata attributes like itemscope, itemprop e.t.c
 - JSON.LD
+- Schema Vocabulary
 
 
 ### What I learned
@@ -95,12 +96,9 @@ I wish to keep using HTML5 Microdata attributes like itemscope, itemprop e.t.c a
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope#browser_compatibility
-- https://schema.org/docs/schemas.html
-- https://www.geeksforgeeks.org/html-itemscope-attribute/amp/
-- https://validator.schema.org/#url=https%3A%2F%2Faik-202.github.io%2Faik-product-preview-card-component%2F
+- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope#browser_compatibility) - This helped me understand the HTML5 Microdata attributes like itemscope, itemprop e.t.c and JSON.LD and how to implement them in my page.
+- [Example resource 2](https://schema.org/docs/schemas.html) - This is helped me known more about schema vocabulary.
+- [Example resource 3](https://validator.schema.org/#url=https%3A%2F%2Faik-202.github.io%2Faik-product-preview-card-component%2F) - This is helped me validate the schema of my page.
 
 
 ## Author
@@ -108,5 +106,3 @@ I wish to keep using HTML5 Microdata attributes like itemscope, itemprop e.t.c a
 - Github - [@Aik-202](https://github.com/Aik-202/)
 - Frontend Mentor - [@Aik-202](https://www.frontendmentor.io/profile/Aik-202)
 - Twitter - [@chiomaikogwe](https://www.twitter.com/chiomaikogwe)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
