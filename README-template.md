@@ -97,6 +97,10 @@ I wish to keep using HTML5 Microdata attributes like itemscope, itemprop e.t.c a
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope#browser_compatibility
+- https://schema.org/docs/schemas.html
+- https://www.geeksforgeeks.org/html-itemscope-attribute/amp/
+- https://validator.schema.org/#url=https%3A%2F%2Faik-202.github.io%2Faik-product-preview-card-component%2F
 
 
 ## Author
