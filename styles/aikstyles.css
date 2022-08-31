@@ -29,10 +29,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     padding: 0;
     font-family: Montserrat;
+}
+
+.container>img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .cont1 {
@@ -205,7 +210,7 @@ main {
 }
 
 @media only screen and (min-width:912px) {
-    .container{
+    .container {
         max-width: 70%;
         flex-direction: row;
         height: auto;
@@ -213,16 +218,19 @@ main {
 
     .container>img {
         width: 320px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
     }
-    
+
     .cont1 {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .cont1>h1 {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .cont1>h2 {
@@ -243,7 +251,7 @@ main {
     }
 
     .contd1>sup {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
